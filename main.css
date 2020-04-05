@@ -1,0 +1,164 @@
+/* =============================
+
+    GENERAL STYLES
+
+=============================*/
+* {
+  box-sizing: border-box;
+}
+
+/* Single-direction margin declaration to establish vertical rhythm. */
+h1,h2,h3,
+ul,ol,
+p,
+img {
+   margin-bottom: 1.5rem;
+}
+
+body {
+   background-color: #b4dbc0;
+   font-family: 'Muli', serif;
+   font-size: 1.125rem;
+   line-height: 1.5;
+   color: #2d2b2f;
+}
+
+.features,
+.about-us,
+.gifts,
+.faq,
+.contact {
+  width: 95%;
+  margin: 1.5rem auto;
+  padding: .5rem 1rem;
+  text-align: center;
+}
+
+h1,
+h2 {
+  font-family: 'Nunito', serif;
+}
+
+h2 {
+  font-size: 2.5rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+a {
+  text-decoration: none;
+  color: #90241F;
+}
+
+a:hover {
+  color: #403a39;
+  transition: color .15s ease-in-out;
+}
+
+/* =============================
+
+    HEADER STYLES
+
+=============================*/
+
+.cover {
+   background: url(assets/elektromos-futes-cover.png) no-repeat 70% center/cover;
+   display: table;
+   text-align: center;
+   height: 100vh;
+   width: 100vw;
+}
+
+.hero-text-wrapper {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.hero-text {
+  margin: 0 auto;
+  padding: .625rem;
+  color: hsla(0,0%,100%,.9);
+  background: rgba(144, 36, 31, 0.62);
+}
+
+.hero-text h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0; /* To negate the effect of the single-direction margin declaration. */
+}
+
+.tagline::after {
+  display: block;
+  content: "";
+  background-color: #fff;
+  height: .1rem;
+  width: 6.515625rem;
+  margin: .5rem auto;
+}
+
+/* =============================
+
+      FEATURES STYLES
+
+=============================*/
+
+.blurb {
+   width: 80vw;
+   height: 40vh;
+   margin: auto;
+   margin-bottom: 4rem;
+   border-color: #90241f;
+
+}
+
+
+.blurb img {
+  height: 9rem;
+
+}
+
+.blurb h3 {
+  font-weight: 700;
+}
+
+.blurb div {
+  font-family: 'Muli', sans-serif;
+}
+
+.features p::after {
+  content: "";
+  display: block;
+  height: .2875rem;
+  width: 30vw;
+  margin: 2.5rem auto;
+  background-color: rgba(144, 36, 31, 0.9);
+}
+
+.blurb ::after {
+  content: "";
+  display: block;
+  height: .2875rem;
+  width: 30vw;
+  margin: 2.5rem auto;
+  background-color: rgba(144, 36, 31, 0.9);
+}
+
+/* =============================
+
+        ABOUT US STYLES
+
+=============================*/
+
+.about-us {
+  width: 100vw;
+  text-align: left;
+  background: rgba(144, 36, 31, 0.9);
+  color: #ededed;
+  font-family: 'Muli', sans-serif;
+}
+
+.about-us h2 {
+  margin-top: 1rem; /* To account for the unequal margins compared to the previous section. */
+  text-align: center;
+}
